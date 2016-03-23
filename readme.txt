@@ -8,6 +8,7 @@ Origin:  http://crack.com/golgotha_release
          http://kendeel.20m.com/G3DU/crackdotcom.htm
          http://ftp.funet.fi/pub/sci/audio/game/
          https://sourceforge.net/projects/tuxboxgames/files/Golgotha/
+         https://sourceforge.net/projects/golgotha/
 
 
 gameplay footage:

@@ -1,0 +1,351 @@
+<!-- X-URL: http://www.jonathanclark.com/phorum31/read.php?f=9&i=26&loc=0&t=26 -->
+<!-- Date: Thu, 14 Dec 2000 18:52:12 GMT -->
+<BASE HREF="http://www.jonathanclark.com/phorum31/read.php?f=9&i=26&loc=0&t=26">
+
+<HTML>
+<HEAD>
+<meta name="Phorum Version" content="3.1 RC3">
+<meta name="Phorum DB" content="mysql">
+<meta name="PHP Version" content="4.0.3pl1">
+<TITLE>phorum - Golgotha - New Source Code</TITLE>
+<STYLE> BODY {font-family: Arial, Helvetica;font-size: 10pt;}
+  TD {font-family: Arial, Helvetica;font-size: 10pt;}
+  INPUT {font-family: Arial, Helvetica;font-size: 10pt;}
+  TEXTAREA {font-family: Arial, Helvetica;font-size: 10pt;width: 500px;}
+  .forum_title {font-family: Arial, Helvetica;font-size: large;}
+  .forum {
+ 	font-family: Arial, Helvetica;
+ 	font-size: medium;
+ }
+  .nav {font-family: MS Sans Serif,Geneva,sans-serif;font-size: 8pt;}</STYLE>
+</HEAD>
+<BODY BGCOLOR="#C0C0C0" LINK="#0000FF" ALINK="#FF0000" VLINK="#330000">
+<center>
+<div class=forum_title><b>Golgotha</b></div>
+
+<table width="100%" cellspacing="0" cellpadding="3" border="0">
+<tr>
+    <td width="60%" align="left"  bgcolor="#C0C0C0"><div class=nav><FONT color='#000000'><a href="index.php?f=0"><FONT color='#000000'>Forum List</font></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="post.php?f=9"><FONT color='#000000'>New Topic</font></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="list.php?f=9"><FONT color='#000000'>Go to Top</font></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="list.php?f=9&t=27&a=2"><FONT color='#000000'>Go to Topic</font></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="read.php?f=9&i=26&t=26&v=t"><FONT color='#000000'>Threaded View</font></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="search.php?f=9"><FONT color='#000000'>Search</font></a>&nbsp;</font></div></td>
+    <td width="40%" align="right"  bgcolor="#C0C0C0"><div class=nav>&nbsp;<a href="read.php?f=9&t=26&a=1"><FONT color='#000000'>Previous Topic</a></font>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="read.php?f=9&t=26&a=2"><FONT color='#000000'>Next Topic</font></a></div></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+<tr>
+    <td  bgcolor="#000080"><FONT size="+1" color="#FFFFFF">&nbsp;New Source Code</font></td>
+</tr>
+<tr>
+    <td  bgcolor="#c0c0c0" valign="TOP"><table width="100%" cellspacing="0" cellpadding="5" border="0">
+<tr>
+    <td  bgcolor="#c0c0c0" width="100%" valign="top"><tt><font color="#000000">
+Author:&nbsp;<a href="mailto:&#106;&#106;&#64;&#100;&#114;&#97;&#103;&#111;&#46;&#99;&#111;&#109;&#46;&#112;&#108;?subject=New Source Code">Jan Jasinski</a>&nbsp;(---.ispid.com.pl)<br>
+Date:&nbsp;&nbsp;&nbsp;04-26-2000 08:28<br><br>
+<HTML>Some information about changes in project you can download (VC6.0/DX version)
+<BR>
+<BR>1)All *.cc files are moved to root golgotha directory and renamed to *.cpp
+<BR>2) Files were renamed in convetion i.e.:
+<BR>\render\text_id.cc -> render__text_id.cpp ( backslash -> two underscores)
+<BR>3)Most files that were worth to merge (or there was merging possibility) were merged into bigger files for faster compiling.
+<BR>4) Inside bigger files there are comments from which one they were merged
+<BR>5) Include files were left "as is" with "hh" names and subdirectories
+<BR>6) About 6000 warnings were corrected on MSVC level 3(mainly: typecasting, float representation i.e. 1.0 -> 1.0f, static structures treated as classes were renamed to classes with all public members, an so on)
+<BR>6a) Only one warning left -> in ai_jim.cpp ("if" statement) I didnt analyse yet what was the intetion.
+<BR>7) Golgotha is prepared for fast using by MSVC users (not LINUX !!)
+<BR>8) Main programing changes were described on forum.
+<BR>9) This project is dedicated to Hardware DX version and tested on four cards:
+<BR>Riva 128/ZX, Riva TNT/TNT2.
+<BR>10) Game directory should be prepared as I wrote in Compiling tips "Step by Step Part B"
+<BR>
+<BR>Jan
+<BR></HTML></font></tt><p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="3" border="0">
+<tr>
+    <td valign="TOP" width="100%" align="RIGHT"  bgcolor="#c0c0c0"><div class=nav><FONT color='#000000'><a href="#REPLY"><FONT color='#000000'>Reply To This Message</font></a></font></div></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+<tr>
+    <td  bgcolor="#000080"><FONT size="+1" color="#FFFFFF">&nbsp;RE: New Source Code</font></td>
+</tr>
+<tr>
+    <td  bgcolor="#c0c0c0" valign="TOP"><table width="100%" cellspacing="0" cellpadding="5" border="0">
+<tr>
+    <td  bgcolor="#c0c0c0" width="100%" valign="top"><tt><font color="#000000">
+Author:&nbsp;<a href="mailto:&#106;&#101;&#107;&#95;&#50;&#48;&#48;&#48;&#64;&#109;&#97;&#105;&#108;&#46;&#114;&#117;?subject=New Source Code">Evgeny</a>&nbsp;(194.90.119.---)<br>
+Date:&nbsp;&nbsp;&nbsp;04-30-2000 05:22<br><br>
+<HTML>Hi enjoy !! Send me please about documentation for source code of this game.</HTML></font></tt><p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="3" border="0">
+<tr>
+    <td valign="TOP" width="100%" align="RIGHT"  bgcolor="#c0c0c0"><div class=nav><FONT color='#000000'><a href="#REPLY"><FONT color='#000000'>Reply To This Message</font></a></font></div></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+<tr>
+    <td  bgcolor="#000080"><FONT size="+1" color="#FFFFFF">&nbsp;RE: New Source Code</font></td>
+</tr>
+<tr>
+    <td  bgcolor="#c0c0c0" valign="TOP"><table width="100%" cellspacing="0" cellpadding="5" border="0">
+<tr>
+    <td  bgcolor="#c0c0c0" width="100%" valign="top"><tt><font color="#000000">
+Author:&nbsp;<a href="mailto:&#115;&#121;&#110;&#116;&#97;&#120;&#50;&#49;&#64;&#101;&#114;&#111;&#108;&#115;&#46;&#99;&#111;&#109;?subject=New Source Code">Clinten Carballo</a>&nbsp;(205.160.24.---)<br>
+Date:&nbsp;&nbsp;&nbsp;05-02-2000 13:42<br><br>
+<HTML>Hiya!
+<BR>Source code looks great! If you have the time, I'd really like to have some documentation on this. I'm getting into game programming big time and your engine is perfect for what I'd like to do (don't worry I'm not selling anything!).
+<BR>
+<BR>Thanks,
+<BR>Clinten Carballo</HTML></font></tt><p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="3" border="0">
+<tr>
+    <td valign="TOP" width="100%" align="RIGHT"  bgcolor="#c0c0c0"><div class=nav><FONT color='#000000'><a href="#REPLY"><FONT color='#000000'>Reply To This Message</font></a></font></div></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+<tr>
+    <td  bgcolor="#000080"><FONT size="+1" color="#FFFFFF">&nbsp;help</font></td>
+</tr>
+<tr>
+    <td  bgcolor="#c0c0c0" valign="TOP"><table width="100%" cellspacing="0" cellpadding="5" border="0">
+<tr>
+    <td  bgcolor="#c0c0c0" width="100%" valign="top"><tt><font color="#000000">
+Author:&nbsp;<a href="mailto:&#116;&#115;&#112;&#105;&#110;&#110;&#101;&#114;&#116;&#64;&#97;&#111;&#108;&#46;&#99;&#111;&#109;?subject=New Source Code">torsten</a>&nbsp;(---.ipt.aol.com)<br>
+Date:&nbsp;&nbsp;&nbsp;05-04-2000 09:00<br><br>
+<HTML>can i develop golg with Borland C++ 5 
+<BR>please remail me</HTML></font></tt><p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="3" border="0">
+<tr>
+    <td valign="TOP" width="100%" align="RIGHT"  bgcolor="#c0c0c0"><div class=nav><FONT color='#000000'><a href="#REPLY"><FONT color='#000000'>Reply To This Message</font></a></font></div></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+<tr>
+    <td  bgcolor="#000080"><FONT size="+1" color="#FFFFFF">&nbsp;RE: help</font></td>
+</tr>
+<tr>
+    <td  bgcolor="#c0c0c0" valign="TOP"><table width="100%" cellspacing="0" cellpadding="5" border="0">
+<tr>
+    <td  bgcolor="#c0c0c0" width="100%" valign="top"><tt><font color="#000000">
+Author:&nbsp;<a href="mailto:&#105;&#115;&#101;&#110;&#49;&#49;&#64;&#104;&#111;&#116;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;?subject=New Source Code">leo</a>&nbsp;(---.centrin.net.id)<br>
+Date:&nbsp;&nbsp;&nbsp;08-08-2000 05:00<br><br>
+<HTML>i 'm beginner---i want hack the planet---so teach me if you not busy...thx</HTML></font></tt><p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="3" border="0">
+<tr>
+    <td valign="TOP" width="100%" align="RIGHT"  bgcolor="#c0c0c0"><div class=nav><FONT color='#000000'><a href="#REPLY"><FONT color='#000000'>Reply To This Message</font></a></font></div></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+<tr>
+    <td  bgcolor="#000080"><FONT size="+1" color="#FFFFFF">&nbsp;: help--a friend gave me this site for downloading</font></td>
+</tr>
+<tr>
+    <td  bgcolor="#c0c0c0" valign="TOP"><table width="100%" cellspacing="0" cellpadding="5" border="0">
+<tr>
+    <td  bgcolor="#c0c0c0" width="100%" valign="top"><tt><font color="#000000">
+Author:&nbsp;<a href="mailto:&#107;&#97;&#114;&#101;&#110;&#109;&#113;&#117;&#105;&#103;&#108;&#101;&#121;&#64;&#104;&#111;&#116;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;?subject=New Source Code">karen</a>&nbsp;(---.ra.uc.edu)<br>
+Date:&nbsp;&nbsp;&nbsp;09-06-2000 16:18<br><br>
+<HTML> Programs to be downloaded? yeh or neh? I've not a clue how to do it--any tips.
+<BR>Karen.</HTML></font></tt><p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="3" border="0">
+<tr>
+    <td valign="TOP" width="100%" align="RIGHT"  bgcolor="#c0c0c0"><div class=nav><FONT color='#000000'><a href="#REPLY"><FONT color='#000000'>Reply To This Message</font></a></font></div></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+<tr>
+    <td  bgcolor="#000080"><FONT size="+1" color="#FFFFFF">&nbsp;RE: New Source Code</font></td>
+</tr>
+<tr>
+    <td  bgcolor="#c0c0c0" valign="TOP"><table width="100%" cellspacing="0" cellpadding="5" border="0">
+<tr>
+    <td  bgcolor="#c0c0c0" width="100%" valign="top"><tt><font color="#000000">
+Author:&nbsp;<a href="mailto:&#108;&#112;&#108;&#97;&#99;&#101;&#121;&#64;&#99;&#97;&#112;&#116;&#105;&#118;&#97;&#116;&#101;&#46;&#99;&#111;&#109;?subject=New Source Code">Lancer</a>&nbsp;(207.252.86.---)<br>
+Date:&nbsp;&nbsp;&nbsp;11-09-2000 12:50<br><br>
+<HTML>I've downloaded the code and compiled everything.  No problems..  I copied the executable and all the files that Jan talks about in his compiling hints into the right places, but when I run the program, it brings up the initial screen, then error's out with a "get_model : bad handle" error.  Anybody know what this is.. Am I missing some files or something ?</HTML></font></tt><p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="3" border="0">
+<tr>
+    <td valign="TOP" width="100%" align="RIGHT"  bgcolor="#c0c0c0"><div class=nav><FONT color='#000000'><a href="#REPLY"><FONT color='#000000'>Reply To This Message</font></a></font></div></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+<tr>
+    <td  bgcolor="#000080"><FONT size="+1" color="#FFFFFF">&nbsp;What's the difference between Code Versions?</font></td>
+</tr>
+<tr>
+    <td  bgcolor="#c0c0c0" valign="TOP"><table width="100%" cellspacing="0" cellpadding="5" border="0">
+<tr>
+    <td  bgcolor="#c0c0c0" width="100%" valign="top"><tt><font color="#000000">
+Author:&nbsp;<a href="mailto:&#112;&#103;&#114;&#97;&#119;&#101;&#104;&#114;&#64;&#115;&#116;&#117;&#100;&#101;&#110;&#116;&#46;&#101;&#116;&#104;&#122;&#46;&#99;&#104;?subject=New Source Code">Patrick</a>&nbsp;(---.bluewin.ch)<br>
+Date:&nbsp;&nbsp;&nbsp;11-10-2000 16:01<br><br>
+<HTML>Hello.
+<BR>I've downloaded all the source and compilled the project correctly on MSVC 6. It seems to run flawlessly except that it is not possible to create any tanks. When pressing i.e 'a' money is decremented, "Vehicle advancing" is written but I get a debug warning "can't get there", and nothing happens. 
+<BR>When I use the precompilled exe from this site, everything works. What's wrong here?
+<BR></HTML></font></tt><p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="3" border="0">
+<tr>
+    <td valign="TOP" width="100%" align="RIGHT"  bgcolor="#c0c0c0"><div class=nav><FONT color='#000000'><a href="#REPLY"><FONT color='#000000'>Reply To This Message</font></a></font></div></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+<tr>
+    <td  bgcolor="#000080"><FONT size="+1" color="#FFFFFF">&nbsp;RE: What's the difference between Code Versions?</font></td>
+</tr>
+<tr>
+    <td  bgcolor="#c0c0c0" valign="TOP"><table width="100%" cellspacing="0" cellpadding="5" border="0">
+<tr>
+    <td  bgcolor="#c0c0c0" width="100%" valign="top"><tt><font color="#000000">
+Author:&nbsp;<a href="mailto:&#109;&#97;&#97;&#95;&#97;&#103;&#101;&#110;&#99;&#105;&#101;&#115;&#64;&#105;&#110;&#100;&#121;&#97;&#46;&#99;&#111;&#109;?subject=New Source Code">n.mani</a>&nbsp;(202.9.161.---)<br>
+Date:&nbsp;&nbsp;&nbsp;11-18-2000 04:42<br><br>
+<HTML>hai every one
+<BR> kindly tell me about how can i get a draw software full thorugh the lottery result heldin  the net.they having a website in net. they do daily draw in comput.kindly tellme the above software i can get by net.</HTML></font></tt><p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="3" border="0">
+<tr>
+    <td valign="TOP" width="100%" align="RIGHT"  bgcolor="#c0c0c0"><div class=nav><FONT color='#000000'><a href="#REPLY"><FONT color='#000000'>Reply To This Message</font></a></font></div></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+<tr>
+    <td  bgcolor="#000080"><FONT size="+1" color="#FFFFFF">&nbsp;RE: What's the difference between Code Versions?</font></td>
+</tr>
+<tr>
+    <td  bgcolor="#c0c0c0" valign="TOP"><table width="100%" cellspacing="0" cellpadding="5" border="0">
+<tr>
+    <td  bgcolor="#c0c0c0" width="100%" valign="top"><tt><font color="#000000">
+Author:&nbsp;<a href="mailto:&#112;&#103;&#114;&#97;&#119;&#101;&#104;&#114;&#64;&#115;&#116;&#117;&#100;&#101;&#110;&#116;&#46;&#101;&#116;&#104;&#122;&#46;&#99;&#104;?subject=New Source Code">Patrick</a>&nbsp;(---.bluewin.ch)<br>
+Date:&nbsp;&nbsp;&nbsp;11-26-2000 12:05<br><br>
+<HTML>Sorry n.mani:
+<BR>I can't help you as I do not understand your question. Please use more complete sentences.
+<BR>
+<BR>
+<BR></HTML></font></tt><p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="3" border="0">
+<tr>
+    <td valign="TOP" width="100%" align="RIGHT"  bgcolor="#c0c0c0"><div class=nav><FONT color='#000000'><a href="#REPLY"><FONT color='#000000'>Reply To This Message</font></a></font></div></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+<tr>
+    <td  bgcolor="#000080"><FONT size="+1" color="#FFFFFF">&nbsp;RE: What's the difference between Code Versions?</font></td>
+</tr>
+<tr>
+    <td  bgcolor="#c0c0c0" valign="TOP"><table width="100%" cellspacing="0" cellpadding="5" border="0">
+<tr>
+    <td  bgcolor="#c0c0c0" width="100%" valign="top"><tt><font color="#000000">
+Author:&nbsp;<a href="mailto:&#103;&#111;&#119;&#114;&#105;&#115;&#97;&#110;&#107;&#97;&#114;&#95;&#50;&#48;&#48;&#48;&#64;&#121;&#97;&#104;&#111;&#111;&#46;&#99;&#111;&#109;?subject=New Source Code">gowrisankar</a>&nbsp;(203.197.240.---)<br>
+Date:&nbsp;&nbsp;&nbsp;11-27-2000 02:52<br><br>
+<HTML>hai,
+<BR>how to form virus programs and i want some virus programs including i love you virus programs.and how to hack
+<BR>
+<BR>
+<BR>bye</HTML></font></tt><p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="3" border="0">
+<tr>
+    <td valign="TOP" width="100%" align="RIGHT"  bgcolor="#c0c0c0"><div class=nav><FONT color='#000000'><a href="#REPLY"><FONT color='#000000'>Reply To This Message</font></a></font></div></td>
+</tr>
+</table>
+<A name="REPLY">
+<form action="post.php" method="post" enctype="multipart/form-data">
+<input type="Hidden" name="t" value="26">
+<input type="Hidden" name="a" value="post">
+<input type="Hidden" name="f" value="9">
+<input type="Hidden" name="p" value="26">
+<table cellspacing="0" cellpadding="2" border="0">
+<tr>
+    <td colspan="2"  bgcolor="#C0C0C0">
+      <table cellspacing="0" cellpadding="1" border="0">
+        <tr>
+          <td><div class=nav><FONT color='#000000'><a href="index.php?f=0"><FONT color='#000000'>Forum List</font></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="post.php?f=9"><FONT color='#000000'>New Topic</font></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="list.php?f=9"><FONT color='#000000'>Go to Top</font></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="list.php?f=9&t=27&a=2"><FONT color='#000000'>Go to Topic</font></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="read.php?f=9&i=26&t=26&v=t"><FONT color='#000000'>Threaded View</font></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="search.php?f=9"><FONT color='#000000'>Search</font></a>&nbsp;</font></div></td>
+        </tr>
+      </table>
+    </td>
+</tr>
+<tr>
+    <td height="21" colspan="2"  bgcolor="#000080"><FONT color="#FFFFFF">&nbsp;Reply To This Message</font></td>
+</tr>
+<tr>
+    <td  bgcolor="#FFFFFF" nowrap><font color="#000000">&nbsp;Your Name:</font></td>
+    <td  bgcolor="#FFFFFF"><input type="Text" name="author" size="30" maxlength="30" value=""></td>
+</tr>
+<tr>
+    <td  bgcolor="#FFFFFF" nowrap><font color="#000000">&nbsp;Your Email:</font></td>
+    <td  bgcolor="#FFFFFF"><input type="Text" name="email" size="30" maxlength="50" value=""></td>
+</tr>
+<tr>
+    <td  bgcolor="#FFFFFF" nowrap><font color="#000000">&nbsp;Subject:</font></td>
+    <td  bgcolor="#FFFFFF"><input type="Text" name="subject" size="30" maxlength="50" value="RE: What's the difference between Code Versions?"></td>
+</tr>
+<tr>
+    <td  bgcolor="#FFFFFF" colspan=2 width="100%" nowrap align="left"><table cellpadding="5" cellspacing="0" border="0"><tr><td align="CENTER" valign="TOP"><textarea name="body" cols="45" rows="20" wrap="VIRTUAL"></textarea></td></tr></table></td>
+</tr>
+<tr>
+    <td  bgcolor="#FFFFFF" colspan=2 width="100%" nowrap align="left"><font color="#000000"><input type="checkbox" name="email_reply" value="Y">Email replies to this thread, to the address above.</font></td>
+</tr>
+<tr>
+    <td width="100%" colspan="2" align="RIGHT"  bgcolor="#FFFFFF">&nbsp;<input type="Submit" name="post" value=" Post ">&nbsp;<br><img src="images/trans.gif" width=3 height=3 border=0></td>
+</tr>
+</table>
+</form></body>
+</html>
