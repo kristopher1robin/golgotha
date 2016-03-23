@@ -9,7 +9,6 @@ Origin:  http://crack.com/golgotha_release
          http://ftp.funet.fi/pub/sci/audio/game/
          https://sourceforge.net/projects/tuxboxgames/files/Golgotha/
 
-
 "YES! Free as in "free beer" and free as in "free speech." You can do anything you like with the source, graphics, music, and level files, including : sell it, include parts or all of it in your project, post it, copy it, and change it to your heart's content. The only restrictions lay in the code which we did not write and therefore do not own (i.e. the MP3 decoder code ). The author of MPG123 allows free use of that code for non profit use.
 
 This code and data is "public domain" not to be confused with code released under a license such GPL. GPL sets limits on what you can do the code and conditions on it's use and we do not.
