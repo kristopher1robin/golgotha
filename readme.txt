@@ -9,6 +9,9 @@ Origin:  http://crack.com/golgotha_release
          http://ftp.funet.fi/pub/sci/audio/game/
          https://sourceforge.net/projects/tuxboxgames/files/Golgotha/
          https://sourceforge.net/projects/golgotha/
+         http://abuse.zoy.org/wiki/download
+
+"Golgotha was a Crack dot Com game project that was cancelled when the company went bankrupt. It was released into the public domain, together with music, sound effects and textures. I am making them available here because they contain interesting material that is very hard to find nowadays:"
 
 
 gameplay footage:
